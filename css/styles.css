@@ -505,8 +505,8 @@ a:hover {
 }
 
 .experience-logo {
-  width: 150px;
-  height: 90px;
+  width: 200px;
+  height: 120px;
   border-radius: var(--radius);
   object-fit: contain;
   background: var(--color-bg);
@@ -841,7 +841,7 @@ a:hover {
 }
 
 /* -------------------------------------------------------------------------- */
-/* Image placeholder helper (shown when file missing)                           */
+/* Image placeholder helper (shown when file missing)                         */
 /* -------------------------------------------------------------------------- */
 
 .img-placeholder {
