@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Ruocco | Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Julian Ruocco</span>
+        <span class="brand-divider"></span>
+        <span class="brand-subtitle">Aerospace Engineer | Researcher</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container page-hero">
+      <h1>Projects</h1>
+      <p>
+        Over the past few years, I have worked on projects ranging from NASA lunar recycling
+        systems and CubeSat mission concepts to ground station restoration, digital twin
+        modeling, and atmospheric sensing payloads.
+      </p>
+    </div>
+
+    <div class="container project-grid">
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/lunarecycle.jpg (edit in js/images.js) -->
+      <article class="project-card" id="lunarecycle">
+        <div class="project-thumb">
+          <img src="assets/images/projects/lunarecycle.jpg" alt="NASA LunaRecycle Challenge" data-image-key="project-lunarecycle" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>NASA LunaRecycle Challenge</h2>
+          <p>Led a 20-person team to a $50,000 Milestone Round win and finalist round. Built a microwave-assisted plastic pyrolysis proof-of-concept for lunar waste recycling.</p>
+          <a href="research.html#lunarecycle" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/cubesat.jpg -->
+      <article class="project-card" id="cubesat">
+        <div class="project-thumb">
+          <img src="assets/images/projects/cubesat.jpg" alt="Ocean Plastics CubeSat Mission" data-image-key="project-cubesat" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>Ocean Plastics CubeSat Mission</h2>
+          <p>Developed a 3U CubeSat mission concept at SDL to detect and track ocean plastics. Simulated orbits in STK and built Python image compression for plastic detection.</p>
+          <a href="research.html" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/ground-station.jpg -->
+      <article class="project-card" id="ground-station">
+        <div class="project-thumb">
+          <img src="assets/images/projects/ground-station.jpg" alt="UHF Ground Station Restoration" data-image-key="project-groundStation" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>UHF Ground Station Restoration</h2>
+          <p>Restoring and upgrading Penn State's legacy UHF ground station with added S-band capability to support SSPL satellite operations and student training.</p>
+          <a href="index.html#experience" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/digital-twin.jpg -->
+      <article class="project-card" id="digital-twin">
+        <div class="project-thumb">
+          <img src="assets/images/projects/digital-twin.jpg" alt="RECLAIM Digital Twin" data-image-key="project-digitalTwin" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>RECLAIM Digital Twin</h2>
+          <p>Linked COMSOL simulations, real-time LabVIEW data, and CAD visualizations to MBSE requirements for NASA's LunaRecycle Phase 2 RECLAIM system.</p>
+          <a href="research.html#digital-twin" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/gas-payload.jpg -->
+      <article class="project-card" id="gas-payload">
+        <div class="project-thumb">
+          <img src="assets/images/projects/gas-payload.jpg" alt="Atmospheric Gas Detection Payload" data-image-key="project-gasPayload" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>Atmospheric Gas Detection Payload</h2>
+          <p>Designed and built an atmospheric volatile gas detection payload using Arduino, Python, SolidWorks, and KiCad as part of SSPL's Student Training Program.</p>
+          <a href="index.html#experience" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+      <!-- ADD YOUR IMAGE HERE: project thumbnail -->
+      <!-- File: assets/images/projects/hpm-research.jpg -->
+      <article class="project-card" id="hpm-research">
+        <div class="project-thumb">
+          <img src="assets/images/projects/hpm-research.jpg" alt="High Power Microwave Research" data-image-key="project-hpmResearch" data-fallback="project">
+        </div>
+        <div class="project-body">
+          <h2>High Power Microwave Lunar Systems</h2>
+          <p>Researched HPM systems for long-term lunar missions and proposed a centralized microwave network for in-situ plastic-to-propellant recycling.</p>
+          <a href="research.html#hpm" class="btn-read-more">Read More &rsaquo;</a>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Julian Ruocco</p>
+      <div class="footer-social">
+        <span>Follow</span>
+        <a href="https://www.linkedin.com/in/julianruocco" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:julianruocco@gmail.com">Email</a>
+        <a href="https://github.com/julianruocco" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/images.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

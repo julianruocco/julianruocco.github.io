@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Ruocco | Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Julian Ruocco</span>
+        <span class="brand-divider"></span>
+        <span class="brand-subtitle">Aerospace Engineer | Researcher</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="research.html" class="active">Research</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container page-hero">
+      <h1>Research</h1>
+      <p>
+        My research focuses on sustainable space systems — from microwave-assisted lunar
+        recycling and high power microwave propulsion environments to digital twin modeling
+        and mission concept development.
+      </p>
+    </div>
+
+    <!-- ADD YOUR IMAGE HERE: research page hero banner -->
+    <!-- File: assets/images/research/research-hero.jpg (edit in js/images.js → research.hero) -->
+    <div class="container">
+      <div class="research-hero-image">
+        <img src="assets/images/research/research-hero.jpg" alt="Research overview" data-image-key="research-hero" data-fallback="research">
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Research item: HPM -->
+      <article class="research-item" id="hpm">
+        <div class="research-item-image">
+          <!-- ADD YOUR IMAGE HERE: HPM research photo -->
+          <!-- File: assets/images/research/hpm-lunar.jpg -->
+          <img src="assets/images/research/hpm-lunar.jpg" alt="High power microwave lunar research" data-image-key="research-hpm" data-fallback="research">
+        </div>
+        <div class="research-item-text">
+          <h2>High Power Microwave Systems for Lunar Missions</h2>
+          <p>
+            At the Space Propulsion and Environments Laboratory, I researched high power
+            microwave (HPM) systems for future long-term lunar missions. I developed a
+            technical proposal for a lunar recycling system integrated within a centralized
+            microwave network.
+          </p>
+          <ul>
+            <li>Subsystem-level systems design for lunar recycling architecture</li>
+            <li>Novel catalyst selections to increase methane generation from plastic waste</li>
+            <li>Feasibility analysis for in-situ rocket propellant production on the Moon</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Research item: LunaRecycle -->
+      <article class="research-item reverse" id="lunarecycle">
+        <div class="research-item-image">
+          <!-- ADD YOUR IMAGE HERE: LunaRecycle research photo -->
+          <!-- File: assets/images/research/lunarecycle-research.jpg -->
+          <img src="assets/images/research/lunarecycle-research.jpg" alt="LunaRecycle research" data-image-key="research-lunarecycle" data-fallback="research">
+        </div>
+        <div class="research-item-text">
+          <h2>NASA LunaRecycle Challenge</h2>
+          <p>
+            As Research Lead (Phase 1) and Chief Engineer (Phase 2), I directed research
+            and engineering efforts for Penn State's LunaRecycle team competing in NASA's
+            challenge to recycle waste on the lunar surface.
+          </p>
+          <ul>
+            <li>MATLAB heat transfer model improving testing efficiency by ~20%</li>
+            <li>Microwave-assisted plastic pyrolysis proof-of-concept system</li>
+            <li>$50,000 Milestone Round award and finalist round qualification</li>
+            <li>MBSE-driven reviews from SCR through CDR</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Research item: Digital Twin -->
+      <article class="research-item" id="digital-twin">
+        <div class="research-item-image">
+          <!-- ADD YOUR IMAGE HERE: reuse project image or add a dedicated research photo -->
+          <img src="assets/images/projects/digital-twin.jpg" alt="Digital twin modeling" data-image-key="project-digitalTwin" data-fallback="research">
+        </div>
+        <div class="research-item-text">
+          <h2>Digital Twin for RECLAIM</h2>
+          <p>
+            I developed a Digital Twin model for the RECLAIM system that links COMSOL
+            thermal simulations, real-time LabVIEW sensor data, and CAD visualizations
+            directly to MBSE requirements — enabling traceable verification throughout
+            the design lifecycle.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Julian Ruocco</p>
+      <div class="footer-social">
+        <span>Follow</span>
+        <a href="https://www.linkedin.com/in/julianruocco" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:julianruocco@gmail.com">Email</a>
+        <a href="https://github.com/julianruocco" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/images.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

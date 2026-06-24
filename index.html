@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julian Ruocco | About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-name">Julian Ruocco</span>
+        <span class="brand-divider"></span>
+        <span class="brand-subtitle">Aerospace Engineer | Researcher</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html" class="active">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="coursework.html">Coursework</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <!-- ===================== HERO CAROUSEL ===================== -->
+      <!-- ADD YOUR IMAGES HERE: 3–5 full-width banner photos -->
+      <!-- Edit paths in js/images.js → heroSlides[] -->
+      <!-- Recommended folder: assets/images/hero/hero-slide-1.jpg … hero-slide-4.jpg -->
+      <section class="hero-carousel" aria-label="Featured projects slideshow">
+        <div class="hero-slides-container">
+          <!-- Slides injected by js/main.js from js/images.js -->
+        </div>
+        <button class="carousel-btn prev" aria-label="Previous slide">&#8249;</button>
+        <button class="carousel-btn next" aria-label="Next slide">&#8250;</button>
+        <div class="carousel-dots"></div>
+      </section>
+
+      <!-- ===================== ABOUT SECTION ===================== -->
+      <section class="about-section" id="about">
+        <aside class="about-sidebar">
+          <!-- ADD YOUR IMAGE HERE: circular profile headshot -->
+          <!-- Default: assets/images/profile.jpg (edit in js/images.js → profile) -->
+          <div class="profile-photo-wrap">
+            <img
+              src="assets/images/profile.jpg"
+              alt="Julian Ruocco profile photo"
+              data-image-key="profile"
+              data-fallback="profile"
+            >
+          </div>
+          <p class="sidebar-name">Julian Ruocco</p>
+          <div class="sidebar-divider"></div>
+          <p class="sidebar-title">Aerospace Engineer</p>
+        </aside>
+
+        <div class="about-content">
+          <h1>Hello</h1>
+          <div class="action-buttons">
+            <a href="assets/Julian-Ruocco-Resume.pdf" class="btn-primary" download>RESUME</a>
+            <a href="projects.html" class="btn-outline">PROJECTS</a>
+          </div>
+          <div class="about-bio">
+            <p>
+              Thank you for visiting my page. I am an Aerospace Engineering student at Penn State
+              pursuing a minor in Engineering Leadership Development and a certificate in Space
+              Systems Engineering. I am passionate about space systems, sustainable off-world
+              presence through circular economies, and hands-on hardware development.
+            </p>
+            <p>
+              I have led multidisciplinary student teams on NASA's LunaRecycle Challenge,
+              developed CubeSat mission concepts at the Space Dynamics Laboratory, and built
+              digital twin models linking simulation, real-time data, and MBSE requirements.
+              When I am not working on computational modeling or hardware payloads, you can find
+              me at the gym, hiking, or exploring the natural sciences.
+            </p>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/julianruocco" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:julianruocco@gmail.com">Email</a>
+            <a href="https://github.com/julianruocco" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <h2>Education</h2>
+        </div>
+        <div class="education-card">
+          <p class="school">The Pennsylvania State University — May 2027</p>
+          <h3>B.S. Aerospace Engineering</h3>
+          <ul>
+            <li>GPA: 3.66 / 4.0</li>
+            <li>In-Major GPA: 3.82 / 4.0</li>
+            <li>Engineering Leadership Development Minor</li>
+            <li>Space Systems Engineering Certificate</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-group">
+          <h3>Software &amp; Simulation</h3>
+          <div class="skills-grid">
+            <div class="skill-item">MATLAB</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">SolidWorks</div>
+            <div class="skill-item">Fusion</div>
+            <div class="skill-item">AutoCAD</div>
+            <div class="skill-item">STK</div>
+            <div class="skill-item">COMSOL</div>
+            <div class="skill-item">KiCad</div>
+            <div class="skill-item">LabVIEW</div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Hardware &amp; Fabrication</h3>
+          <div class="skills-grid">
+            <div class="skill-item">High Power Microwave Systems</div>
+            <div class="skill-item">Microwave-Assisted Pyrolysis</div>
+            <div class="skill-item">Arduino / Teensy</div>
+            <div class="skill-item">Payload Assembly</div>
+            <div class="skill-item">Control Systems</div>
+            <div class="skill-item">RF Systems</div>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <h3>Methodologies</h3>
+          <div class="skills-grid">
+            <div class="skill-item">Systems Engineering</div>
+            <div class="skill-item">MBSE</div>
+            <div class="skill-item">Digital Twin Modeling</div>
+            <div class="skill-item">Technical Proposal Writing</div>
+            <div class="skill-item">Mission Concepting</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROFESSIONAL EXPERIENCE ===================== -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2>Professional Experience</h2>
+          <p>From mission concept to hands-on space systems engineering</p>
+        </div>
+
+        <!-- Experience card: SDL -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <!-- ADD YOUR IMAGE HERE (optional): org logo — assets/images/logos/sdl.png -->
+            <img class="experience-logo hidden" src="" alt="Space Dynamics Laboratory logo" data-image-key="logo-sdl" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">Space Dynamics Laboratory</h3>
+              <p class="experience-role">Mission Concept Intern</p>
+              <p class="experience-meta">Albuquerque, NM &nbsp;|&nbsp; May – July 2026</p>
+            </div>
+          </div>
+          <ul>
+            <li>Developed a mission concept for a 3U CubeSat to detect, track, and identify ocean plastics in the Pacific Ocean.</li>
+            <li>Simulated orbital parameters in STK to measure ground station passes, downlink capability, and orbit optimization.</li>
+            <li>Built a Python script to compress satellite imagery into indexes capable of detecting ocean plastic.</li>
+            <li>Utilized Systems Engineering methodology to take an initial proposal from SCR to PDR.</li>
+            <li>Worked with NASA and AFRL engineers to continually iterate the design to increase mission feasibility.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            STK | Python | Systems Engineering | Mission Concepting | CubeSat Design
+          </div>
+        </article>
+
+        <!-- Experience card: SSPL Lab Lead -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <!-- ADD YOUR IMAGE HERE (optional): org logo — assets/images/logos/sspl.png -->
+            <img class="experience-logo hidden" src="" alt="SSPL logo" data-image-key="logo-sspl" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">Student Space Programs Laboratory</h3>
+              <p class="experience-role">Laboratory Lead &amp; Lead Systems Engineer</p>
+              <p class="experience-meta">State College, PA &nbsp;|&nbsp; August 2025 – Present</p>
+            </div>
+          </div>
+          <ul>
+            <li>Developed a Digital Twin model linking COMSOL simulations, real-time LabVIEW data, and CAD visualizations to MBSE requirements for RECLAIM (NASA LunaRecycle Challenge Phase 2).</li>
+            <li>Restoring and upgrading Penn State's old UHF ground station while adding S-band capability.</li>
+            <li>Direct laboratory initiatives, grow the laboratory through strategic recruitment, and train 40+ student engineers.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            MBSE | COMSOL | LabVIEW | Digital Twin | RF Systems | Leadership
+          </div>
+        </article>
+
+        <!-- Experience card: LunaRecycle Phase 2 -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <!-- ADD YOUR IMAGE HERE (optional): org logo — assets/images/logos/nasa.png -->
+            <img class="experience-logo hidden" src="" alt="NASA logo" data-image-key="logo-nasa" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">NASA LunaRecycle Challenge</h3>
+              <p class="experience-role">Chief Engineer — Phase 2</p>
+              <p class="experience-meta">State College, PA &nbsp;|&nbsp; August 2025 – May 2026</p>
+            </div>
+          </div>
+          <ul>
+            <li>Led 20 student engineers to win $50,000 in the Milestone Round and secured a seat in the finalist round.</li>
+            <li>Created a proof-of-concept microwave-assisted plastic pyrolysis system proving feasibility.</li>
+            <li>Utilized MBSE and regular reviews through SCR to CDR.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            MBSE | Microwave Systems | Systems Engineering | Team Leadership
+          </div>
+        </article>
+
+        <!-- Experience card: LunaRecycle Phase 1 -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <img class="experience-logo hidden" src="" alt="NASA logo" data-image-key="logo-nasa" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">NASA LunaRecycle Challenge</h3>
+              <p class="experience-role">Research Lead — Phase 1</p>
+              <p class="experience-meta">State College, PA &nbsp;|&nbsp; December 2024 – May 2025</p>
+            </div>
+          </div>
+          <ul>
+            <li>Directed the research team for NASA's LunaRecycle Challenge (Phase 1), authoring key proposal sections.</li>
+            <li>Created a MATLAB heat transfer model to gauge system temperature, improving testing efficiency by ~20%.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            MATLAB | Technical Writing | Heat Transfer | Research Leadership
+          </div>
+        </article>
+
+        <!-- Experience card: Student Training Program -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <img class="experience-logo hidden" src="" alt="SSPL logo" data-image-key="logo-sspl" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">Student Space Programs Laboratory</h3>
+              <p class="experience-role">Member, Student Training Program</p>
+              <p class="experience-meta">State College, PA &nbsp;|&nbsp; August 2023 – November 2024</p>
+            </div>
+          </div>
+          <ul>
+            <li>Applied systems engineering to design and build an atmospheric volatile gas detection payload using Arduino, Python, SolidWorks, and KiCad.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            Arduino | Python | SolidWorks | KiCad | Payload Design
+          </div>
+        </article>
+
+        <!-- Experience card: SPEL Research -->
+        <article class="experience-card">
+          <div class="experience-header">
+            <!-- ADD YOUR IMAGE HERE (optional): org logo — assets/images/logos/spel.png -->
+            <img class="experience-logo hidden" src="" alt="SPEL logo" data-image-key="logo-spel" data-fallback="logo">
+            <div>
+              <h3 class="experience-org">Space Propulsion &amp; Environments Laboratory</h3>
+              <p class="experience-role">Space Systems Researcher</p>
+              <p class="experience-meta">State College, PA &nbsp;|&nbsp; May – August 2025</p>
+            </div>
+          </div>
+          <ul>
+            <li>Researched high power microwave systems for use on future long-term lunar missions.</li>
+            <li>Developed a technical proposal for a lunar recycling system within a centralized microwave network.</li>
+            <li>Engineered systems design down to subsystem level and proposed novel catalyst selections for increasing methane generation.</li>
+          </ul>
+          <div class="top-skills">
+            <strong>Top Skills Utilized</strong>
+            HPM Systems | Systems Engineering | Technical Proposal Writing | Lunar Systems
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Julian Ruocco</p>
+      <div class="footer-social">
+        <span>Follow</span>
+        <a href="https://www.linkedin.com/in/julianruocco" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:julianruocco@gmail.com">Email</a>
+        <a href="https://github.com/julianruocco" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/images.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
