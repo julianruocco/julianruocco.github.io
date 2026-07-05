@@ -505,7 +505,7 @@ a:hover {
 }
 
 .experience-logo {
-  width: 200px;
+  width: 120px;
   height: 120px;
   border-radius: var(--radius);
   object-fit: contain;
