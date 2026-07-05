@@ -25,7 +25,7 @@ const SITE_IMAGES = {
     },
     {
       src: "assets/images/hero/hero-slide-2.jpg",
-      title: "Imaging and Edge Computing CubeSat Mission",
+      title: "CubeSat Mission",
       subtitle: "University Nanosatellite Program Mission Concept",
       link: "projects.html#cubesat",
     },
