@@ -25,8 +25,8 @@ const SITE_IMAGES = {
     },
     {
       src: "assets/images/hero/hero-slide-2.jpg",
-      title: "Ocean Plastics",
-      subtitle: "CubeSat Mission Concept",
+      title: "Imaging and Edge Computing CubeSat Mission",
+      subtitle: "University Nanosatellite Program Mission Concept",
       link: "projects.html#cubesat",
     },
     {
@@ -37,7 +37,7 @@ const SITE_IMAGES = {
     },
     {
       src: "assets/images/hero/hero-slide-4.jpg",
-      title: "Space Systems",
+      title: "Control Systems Projects",
       subtitle: "Research & Engineering",
       link: "research.html",
     },
