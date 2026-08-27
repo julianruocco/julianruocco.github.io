@@ -31,8 +31,8 @@ const SITE_IMAGES = {
     },
     {
       src: "assets/images/hero/hero-slide-3.jpg",
-      title: "Digital Twin",
-      subtitle: "RECLAIM Systems Engineering",
+      title: "RECLAIM Integration, Testing, System's Engineering",
+      subtitle: "Final Round Product",
       link: "projects.html#digital-twin",
     },
     {
