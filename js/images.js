@@ -31,8 +31,8 @@ const SITE_IMAGES = {
     },
     {
       src: "assets/images/hero/hero-slide-3.jpg",
-      title: "RECLAIM Integration, Testing, System's Engineering",
-      subtitle: "Final Round Product",
+      title: "RECLAIM V&V",
+      subtitle: "Final Round Product Integration and Testing",
       link: "projects.html#digital-twin",
     },
     {
