@@ -54,7 +54,7 @@ const SITE_IMAGES = {
     gasPayload: "assets/images/projects/gas-payload.jpg",
     hpmResearch: "assets/images/projects/hpm-research.jpg",
     "6DOF": "assets/images/projects/cr.png",
-    pidController: "assets/images/hero/hero-slide-4.jpg",
+    pidController: "assets/images/projects/pid-dc-motor.jpg",
   },
 
   // ---------------------------------------------------------------------------
@@ -78,6 +78,6 @@ const SITE_IMAGES = {
     nasa: "assets/images/logos/nasa.png",
     pennState: "assets/images/logos/penn-state.png",
     spel: "assets/images/logos/spel.png",
-    genesis: "",
+    genesis: "assets/images/logos/genesis-aec.png",
   },
 };
