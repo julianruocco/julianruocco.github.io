@@ -54,7 +54,7 @@ const SITE_IMAGES = {
     gasPayload: "assets/images/projects/gas-payload.jpg",
     hpmResearch: "assets/images/projects/hpm-research.jpg",
     "6DOF": "assets/images/projects/cr.png",
-    pidController: "assets/images/projects/pid-dc-motor.jpg",
+    pidController: "assets/images/projects/pid-controller.png",
   },
 
   // ---------------------------------------------------------------------------

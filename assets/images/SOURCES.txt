@@ -3,3 +3,5 @@ https://www.genesisaec.com/wp-content/uploads/2022/09/logo.svg
 
 pid-dc-motor.jpg — Wikimedia Commons: Commutator and brushes DC motor.jpg
 https://commons.wikimedia.org/wiki/File:Commutator_and_brushes_DC_motor.jpg
+
+pid-controller.png — User-provided PID controller block diagram for the Honors PID Controller project.
