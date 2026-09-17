@@ -20,13 +20,13 @@ const SITE_IMAGES = {
     {
       src: "assets/images/hero/hero-slide-1.jpg",
       title: "NASA LunaRecycle",
-      subtitle: "Phase 2 Finalist",
+      subtitle: "Milestone Round &amp; Innovation Awards",
       link: "projects.html#lunarecycle",
     },
     {
       src: "assets/images/hero/hero-slide-2.jpg",
-      title: "CubeSat Mission",
-      subtitle: "University Nanosatellite Program Mission Concept",
+      title: "OSPREY CubeSat",
+      subtitle: "6U Ocean Plastics Mission Concept",
       link: "projects.html#cubesat",
     },
     {
@@ -39,7 +39,7 @@ const SITE_IMAGES = {
       src: "assets/images/hero/hero-slide-4.jpg",
       title: "Control Systems Projects",
       subtitle: "Research & Engineering",
-      link: "research.html",
+      link: "research.html#robotic-arm",
     },
   ],
 
@@ -50,9 +50,11 @@ const SITE_IMAGES = {
     lunarecycle: "assets/images/projects/lunarecycle.jpg",
     cubesat: "assets/images/projects/cubesat.jpg",
     groundStation: "assets/images/projects/ground-station.jpg",
-    digitalTwin: "assets/images/projects/digital-twin.jpg",
+    digitalTwin: "assets/images/projects/cadmodelreclaim.png",
     gasPayload: "assets/images/projects/gas-payload.jpg",
     hpmResearch: "assets/images/projects/hpm-research.jpg",
+    "6DOF": "assets/images/projects/cr.png",
+    pidController: "assets/images/hero/hero-slide-4.jpg",
   },
 
   // ---------------------------------------------------------------------------
@@ -62,6 +64,8 @@ const SITE_IMAGES = {
     hero: "assets/images/research/research-hero.jpg",
     hpm: "assets/images/research/hpm-lunar.jpg",
     lunarecycle: "assets/images/research/lunarecycle-research.jpg",
+    cubesat: "assets/images/projects/cubesat.jpg",
+    roboticArm: "assets/images/projects/cr.png",
   },
 
   // ---------------------------------------------------------------------------
@@ -74,5 +78,6 @@ const SITE_IMAGES = {
     nasa: "assets/images/logos/nasa.png",
     pennState: "assets/images/logos/penn-state.png",
     spel: "assets/images/logos/spel.png",
+    genesis: "",
   },
 };
