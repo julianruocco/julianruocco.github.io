@@ -20,12 +20,12 @@ const SITE_IMAGES = {
     {
       src: "assets/images/hero/hero-slide-1.jpg",
       title: "NASA LunaRecycle",
-      subtitle: "Phase 2 Finalist",
+      subtitle: "Milestone Round &amp; Innovation Awards",
       link: "projects.html#lunarecycle",
     },
     {
       src: "assets/images/hero/hero-slide-2.jpg",
-      title: "CubeSat Mission",
+      title: "OSPREY CubeSat",
       subtitle: "6U Ocean Plastics Mission Concept",
       link: "projects.html#cubesat",
     },
@@ -78,5 +78,6 @@ const SITE_IMAGES = {
     nasa: "assets/images/logos/nasa.png",
     pennState: "assets/images/logos/penn-state.png",
     spel: "assets/images/logos/spel.png",
+    genesis: "",
   },
 };
