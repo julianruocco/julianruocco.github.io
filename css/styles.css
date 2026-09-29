@@ -628,6 +628,17 @@ a:hover {
   color: var(--color-text-muted);
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.research-item-text .card-links {
+  margin-top: 1.25rem;
+}
+
 /* -------------------------------------------------------------------------- */
 /* Research page                                                              */
 /* -------------------------------------------------------------------------- */
